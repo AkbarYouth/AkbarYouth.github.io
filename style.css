@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.latest-events {
+  font-size: 25px;
+  
+}
+.rightbar {
+  float: right;
+  width: 250px;
+  padding: 10px;
+}
