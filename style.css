@@ -14,3 +14,10 @@ body {
   width: 250px;
   padding: 10px;
 }
+
+
+.centerwhiteback {
+  background-color: white;
+  float: middle;
+  
+}
