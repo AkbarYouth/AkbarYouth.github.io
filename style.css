@@ -5,20 +5,14 @@ body {
 }
 
 .latest-events {
-  font-size: 25px;
-
+  font-size: 1.5vw;
+  padding-left: 390px;
 }
 
 .rightbar {
   float: right;
   width: 250px;
   padding: 10px;
-}
-
-
-.centerwhiteback {
-  background-color: white;
-  float: middle;
 }
 
 .navbar-nav.navbar-center {
@@ -30,45 +24,44 @@ body {
 
 .nav-link {
   color: black;
+  background-color: white;
+}
+.nav-item {
+  color: black;
+  background-color: white;
+}
+.active {
+  color: black;
+  background-color: white;
 }
 
-.nav-item>a:hover {
-  color: darkgray;
-  background-color: darkgray;
+.navbar .navbar-nav .nav-link:hover {
+  background-color: white;
+  color: #b9871a;
 }
 
-.navbar-nav>.active>a {
-  background-color: lightgray;
-  color: gray;
+li.navbaranimation:hover{
+  border: none;
 }
 
-.w3rcontainer{
-   border: 1px solid 
-#cccfdb;
-   border-radius: 2px;
-} 
-.hover-underline-animation {
-  display: inline-block;
-  position: relative;
-  color: 
-#0087ca;
-}
-
-.hover-underline-animation:after {
+.navbaranimation::after{
   content: '';
   position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: 
-#0087ca;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  width: 0px;
+  height: 4px;
+  left: 50%;
+  bottom:1;
+  background-color: #b9871a;
+  transition: all ease-in-out .3s;
 }
 
-.hover-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+.navbaranimation:hover::after{
+  width: 100%;
+  left: 0;
+}
+
+.active {
+  color: #b9871a;
+  background-color: white;
+  border-bottom: 2px solid #b9871a;
 }
