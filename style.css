@@ -1,5 +1,6 @@
 html,
 body {
+  font-weight: 500 !important;
   height: 100%;
   width: 100%;
 }
@@ -15,53 +16,51 @@ body {
   padding: 10px;
 }
 
-.navbar-nav.navbar-center {
-  position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
+.navbar .navbar-nav .nav-link:hover {
+  color: #b9871a;
+}
+.navbar .navbar-nav .nav-link {
+  color: #000000;
   font-size: 18px;
 }
-
-.nav-link {
-  color: black;
-  background-color: white;
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin: 0 1em;
+  }
 }
-.nav-item {
-  color: black;
-  background-color: white;
+.navbar .navbar-nav .nav-item {
+  position: relative;
 }
-.active {
-  color: black;
-  background-color: white;
-}
-
-.navbar .navbar-nav .nav-link:hover {
-  background-color: white;
-  color: #b9871a;
-}
-
-li.navbaranimation:hover{
-  border: none;
-}
-
-.navbaranimation::after{
-  content: '';
+.navbar .navbar-nav .nav-item::after {
   position: absolute;
-  width: 0px;
-  height: 4px;
-  left: 50%;
-  bottom:1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   background-color: #b9871a;
-  transition: all ease-in-out .3s;
+  width: 0%;
+  content: "";
+  height: 4px;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
 }
 
-.navbaranimation:hover::after{
-  width: 100%;
-  left: 0;
+.navbar .navbar-nav .nav-item::after {
+  transition: all 0.3s;
 }
+
 
 .active {
-  color: #b9871a;
+  font-size: 19px;
+  font-weight: bolder !important;
+  color: #b9871a !important;
   background-color: white;
   border-bottom: 2px solid #b9871a;
 }
