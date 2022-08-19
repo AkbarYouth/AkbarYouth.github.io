@@ -59,7 +59,7 @@ body {
 
 .active {
   font-size: 19px;
-  font-weight: bolder !important;
+  font-weight: bold !important;
   color: #b9871a !important;
   background-color: white;
   border-bottom: 2px solid #b9871a;
