@@ -12,7 +12,7 @@ body {
 
 .rightbar {
   float: right;
-  width:350px;
+  width: 350px;
   padding: 10px;
   margin-right: 50px;
 }
@@ -20,24 +20,30 @@ body {
 .navbar .navbar-nav .nav-link:hover {
   color: #b9871a;
 }
+
 .navbar .navbar-nav .nav-link {
   color: #000000;
   font-size: 18px;
 }
+
 @media only screen and (min-width: 992px) {
   .navbar {
     padding: 0;
   }
+
   .navbar .navbar-nav .nav-link {
     padding: 1em 0;
   }
+
   .navbar .navbar-nav .nav-item {
     margin: 0 0.7em;
   }
 }
+
 .navbar .navbar-nav .nav-item {
   position: relative;
 }
+
 .navbar .navbar-nav .nav-item::after {
   position: absolute;
   bottom: 15%;
@@ -49,6 +55,7 @@ body {
   content: "";
   height: 4px;
 }
+
 .navbar .navbar-nav .nav-item:hover::after {
   width: 100%;
 }
