@@ -1,5 +1,5 @@
 async function prayerTimes() {
-  let url = "https://api.aladhan.com/v1/timingsByCity?city=London&country=United%Kingdom&method=15&midnightMode=1&tune=0,0,0,0,0,15,0,0,0&adjustment=-1"
+  let url = "https://api.aladhan.com/v1/timingsByCity?city=London&country=United%Kingdom&method=15&midnightMode=1&tune=0,0,0,0,0,15,0,0,0"
   let response = await fetch(url);
   let data = await response.json()
   let dayData = data.data.timings

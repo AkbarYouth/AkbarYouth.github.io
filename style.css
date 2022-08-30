@@ -103,6 +103,8 @@ body {
   margin-right: 80px;
   font-size: 25px;
   padding-left: 15px;
+  background: #fff;
+  box-shadow: -5px 10px 20px 5px rgba(112,112,112,0.25);
 }
 
 .datesBox {
@@ -111,4 +113,6 @@ body {
   font-size: 20px;
   padding-left: 10px;
   margin-bottom: 20px;
+  background: #fff;
+  box-shadow: -5px 10px 20px 5px rgba(112,112,112,0.25);
 }
