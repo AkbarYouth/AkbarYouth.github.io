@@ -103,8 +103,10 @@ body {
   margin-right: 80px;
   font-size: 25px;
   padding-left: 15px;
-  background: #fff;
-  box-shadow: -5px 10px 20px 5px rgba(112,112,112,0.25);
+  background-image: url("/images/prayerTimesBack.png");
+  background-size: 400px;
+  background-position: -70px -10px;
+  box-shadow: -5px 10px 20px 5px rgba(112,112,112,0.15);
 }
 
 .datesBox {
@@ -114,5 +116,5 @@ body {
   padding-left: 10px;
   margin-bottom: 20px;
   background: #fff;
-  box-shadow: -5px 10px 20px 5px rgba(112,112,112,0.25);
+  box-shadow: -5px 10px 20px 5px rgba(112,112,112,0.15);
 }
