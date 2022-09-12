@@ -1,8 +1,8 @@
-html,
+
 body {
   font-weight: 500 !important;
   height: 100%;
-  width: 100%;
+  width: 100%;  
 }
 
 .latest-events {
@@ -117,4 +117,8 @@ body {
   margin-bottom: 20px;
   background: #fff;
   box-shadow: -5px 10px 20px 5px rgba(112,112,112,0.15);
+}
+
+.fb-round-corners {
+  border-radius: 20%;
 }

@@ -16,3 +16,5 @@ async function prayerTimes() {
 
   document.getElementById("date").innerHTML = date
 }
+
+prayerTimes()
